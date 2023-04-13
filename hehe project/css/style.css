@@ -672,8 +672,18 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   width: 100%;
   padding: 100px 0;
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#000000",GradientType=1 );
   background-blend-mode: overlay;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#000000",GradientType=1 );
+}
+@media (max-width: 1023px) {
+  .wrapper .delivery__section {
+    background: url("/img/delivery-section-bg.jpg") center/cover no-repeat scroll, rgba(0, 0, 0, 0.75);
+  }
+}
+@media (min-width: 1024px) {
+  .wrapper .delivery__section {
+    background: url("/img/delivery-section-bg.jpg") center/cover no-repeat fixed, rgba(0, 0, 0, 0.75);
+  }
 }
 .wrapper .delivery__section .delivery__block {
   max-width: 100%;
@@ -686,7 +696,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1023px) {
   .wrapper .delivery__section .delivery__block {
-    background: url("/img/delivery-section-bg.jpg") center/cover no-repeat, rgba(0, 0, 0, 0.75);
     padding: 10px 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -699,7 +708,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 1024px) {
   .wrapper .delivery__section .delivery__block {
-    background: url("/img/delivery-section-bg.jpg") center/cover no-repeat fixed, rgba(0, 0, 0, 0.75);
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
