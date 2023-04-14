@@ -107,7 +107,7 @@
   			<div class="swiper-button-next"></div>
 			</div>
 
-			<div class="catalog__section">
+			<section class="catalog__section">
 				<div class="catalog__header">
 					<h3>Огромный каталог манги</h3>
 					<p>Более 1000 различных тайтлов в одном месте</p>
@@ -138,10 +138,10 @@
 					<div class="catalog__button-viewall">
 						Посмотреть все товары
 					</div>
-			</div>
-			</div>
+				</div>
+			</section>
 
-			<div class="delivery__section">
+			<section class="delivery__section">
 				<div class="delivery__block">
 					<div class="block__image">
 						<img class="delivery__block__img" src="/img/delivery-map.png" alt="map">
@@ -155,9 +155,9 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</section>
 
-			<div class="bio__section">
+			<section class="bio__section">
 				<div class="bio__block">
 					<h2 class="bio__header">Наша команда (легенды)</h2>
 					<p class="bio__article">Именно эти ребята каждый день трудятся за бесплатно, чтобы радовать вас</p>
@@ -172,14 +172,53 @@
 						</div>
 						<div class="bio__person-card person-card_3">
 							<img src="/img/bio-person-card3.png" alt="person" class="person-card__photo">
-							<div class="person-card__legend">Мохнатожопик</div>
+							<div class="person-card__legend">мохнатожопик</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
+
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="container__info">
+						<div class="info__header">
+							<span>Информация</span>
+							<span class="info__header__arrow"></span>
+						</div>
+						<ul class="info__list">
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Свяжитесь с нами</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul>
+					</div>
+					<div class="container__newsletter">
+						<h3 class="newsletter__header">Рассылка</h3>
+							<form action="#" method="get">
+								<div class="form-wrapper">
+									<input type="email" name="email" class="newsletter__input" placeholder="Введите ваш e-mail...">
+									<button class="newsletter__submit">Подписаться</button>
+								</div>
+							</form>
+					</div>
+					<div class="container__social-media">
+						<div class="social-media__header">Мы в социальных сетях</div>
+						<ul class="social-media__list">
+							<li><a href="https://vk.com/kkklowwn" target="_blank"><img src="/img/vk-icon.png" class="social-media__list__image"></a></li>
+							<li><a href="https://t.me/obso1etee" target="_blank"><img src="/img/telegram-icon.png" width="36px" height="36px" class="social-media__list__image"></a></li>
+							<li><a href="https://www.instagram.com/obso1etee/" target="_black"><img src="/img/instagram-icon.png" width="36px" height="36px" class="social-media__list__image"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<ul class="bottom-links">
+						<li><a href="#">©obsoletee, 2023</a></li>
+					</ul>
+				</div>
+			</footer>
+
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-		<script src='js/jsHover.js'></script>
+		<script src='js/mainPageEvents.js'></script>
 		<script src='js/swiper.js'></script>
 		<script src='js/script.js'></script>
 	</body>
