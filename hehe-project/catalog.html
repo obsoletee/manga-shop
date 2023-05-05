@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Каталог</title>
+		<link	rel="stylesheet" href="../css/catalog.css">
+		<link rel="shortcut icon" href="../img/favicon.ico">
+
+		<!--Кодировка страницы-->
+		<meta charset="UTF8">
+
+		<!--Адаптивное мастабирование-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+		<!--Отключение ссылок на телефоны на ios-->
+		<meta http-equiv="format-detection" content="telephone=no">
+
+		<!--SEO-теги-->
+		<meta name="description" content="Описание вашей страницы">
+		<meta name="keywords" content="Ключевые слова">
+
+		<!-- Управление доступом поисковых роботов к странице -->
+		<!--По умолчанию страница индексируется поисковыми система, то есть этот мета тег дополнительно указывать не нужно.-->
+		<!--Но если задача стоит запретить либо ограничить индексацию, то существуют следующие значения:-->
+		<!--none – запретить индексацию страницы полностью.-->
+		<!--noindex – запретить индексацию содержимого страницы.-->
+		<!--nofollow – игнорировать ссылки в пределах веб-страницы. -->
+		<!--noimageindex - запретить индексацию присутствующих на странице изображений-->
+		<!--noarchive - запретить  вывод в результатах поиска ссылки «Сохраненная копия»-->
+		<!--nosnippet - запретить  вывод в поисковой выдаче под названием страницы фрагмента текста, описывающего её содержание.-->
+		<meta name="robots" content="none">
+
+		<meta name="Author" content="Имя автора страницы">
+		<meta name="Copyrights" content="Влад елец авторских прав">
+		<meta name="Address" content="Адрес автора">
+
+		<!--Редирект страницы (Задержка в секундах; url=Адрес страницы)-->
+		<!--<meta  http-equiv="refresh" content="0; url=">-->
+
+	</head>
+		<body>
+			<div class="wrapper">
+				<header class="header">
+					<div class="header__container">
+						<div class="container__logo">
+							<a class="logo__link logo__link_icon" href="#">
+								<img src="/img/favicon.ico" alt="icon">
+							</a>
+							<a href="#" class="logo__link logo__link_name">
+								obsoletee
+							</a>
+						</div>
+						<nav class="header__navigation">
+							<div class="navigation__burger">
+								<span></span>
+							</div>
+							<ul class="menu__list">
+								<li><a href="/index.html" class="navigation__link navigation__link_1">Главная</a></li>
+								<li><a href="/catalog.html" class="navigation__link navigation__link_2">Каталог</a></li>
+								<li><a href="#" class="navigation__link navigation__link_3">Новости</a></li>
+								<li><a href="/registration.html" class="navigation__link navigation__link_4">Войти</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+
+				<div class="text-intro">
+					<div class="text-intro__header">Самая большая коллекция манги в нашем магазине</div>
+					<div class="text-intro__paragraph">Свежие новинки и не стареющая классика в одном месте в удобном для вас виде</div>
+				</div>
+
+				<div class="catalog">
+					<aside class="catalog__aside-menu">
+						<div class="aside-menu__wrapper">
+							<div class="aside-menu__search-field">
+								<input type="text" name="search" class="search-field__search" placeholder="Поиск" autocomplete="off">
+								<div class="button-search"><img class="button-search__icon" src="/img/search.png"></div>
+							</div>
+							<div class="aside-menu__buttons">
+								<div class="buttons__all-button active">Все товары</div>
+								<div class="buttons__exist-button">Только в наличии</div>
+							</div>
+							<div class="aside-menu__flags">
+								<div class="flags__item">
+									<input type="checkbox" name="manga1" class="item__chechbox">
+									<label for="manga1">Манга 1</label>
+								</div>
+								<div class="flags__item">
+									<input type="checkbox" name="manga2" class="item__chechbox">
+									<label for="manga2">Манга 2</label>
+								</div>
+								<div class="flags__item">
+									<input type="checkbox" name="manga3" class="item__chechbox">
+									<label for="manga1">Манга 3</label>
+								</div>
+								<div class="flags__item">
+									<input type="checkbox" name="manga4" class="item__chechbox">
+									<label for="manga1">Манга 4</label>
+								</div>
+								<div class="flags__item">
+									<input type="checkbox" name="manga5" class="item__chechbox">
+									<label for="manga1">Манга 5</label>
+								</div>
+								<div class="flags__item">
+									<input type="checkbox" name="manga6" class="item__chechbox">
+									<label for="manga1">Манга 6</label>
+								</div>
+								<div class="flags__item">
+									<input type="checkbox" name="manga7" class="item__chechbox">
+									<label for="manga1">Манга 7</label>
+								</div>
+								<div class="flags__item">
+									<input type="checkbox" name="manga8" class="item__chechbox">
+									<label for="manga1">Манга 8</label>
+								</div>
+							</div>
+						</div>
+					</aside>
+					<div class="catalog__wrapper">
+						<div class="catalog__page-wrapper">
+							<div class="catalog__page catalog__page_1">
+								<div class="page__item page__item_1">
+									<div class="item__face">
+										<div class="image-container"><img src="/img/fill.png"></div>
+										<div class="caption">Манга 1, 25р</div>
+									</div>
+									<div class="item__back">
+										<div class="about">
+											Нажмите, чтобы узнать подробнее
+										</div>
+									</div>
+								</div>
+								<div class="page__item page__item_2">
+									<div class="item__face">
+										<div class="image-container"><img src="/img/fill.png"></div>
+										<div class="caption">Манга 2, 20р</div>
+									</div>
+									<div class="item__back">
+										<div class="about">
+											Нажмите, чтобы узнать подробнее
+										</div>
+									</div>
+								</div>
+								<div class="page__item page__item_3">
+									<div class="item__face">
+										<div class="image-container"><img src="/img/fill.png"></div>
+										<div class="caption">Манга 3, 25р</div>
+									</div>
+									<div class="item__back">
+										<div class="about">
+											Нажмите, чтобы узнать подробнее
+										</div>
+									</div>
+								</div>
+								<div class="page__item page__item_4">
+									<div class="item__face">
+										<div class="image-container"><img src="/img/fill.png"></div>
+										<div class="caption">Манга 4, 30р</div>
+									</div>
+									<div class="item__back">
+										<div class="about">
+											Нажмите, чтобы узнать подробнее
+										</div>
+									</div>
+								</div>
+								<div class="page__item page__item_5">
+									<div class="item__face">
+										<div class="image-container"><img src="/img/fill.png"></div>
+										<div class="caption">Манга 5, 20р</div>
+									</div>
+									<div class="item__back">
+										<div class="about">
+											Нажмите, чтобы узнать подробнее
+										</div>
+									</div>
+								</div>
+								<div class="page__item page__item_6">
+									<div class="item__face">
+										<div class="image-container"><img src="/img/fill.png"></div>
+										<div class="caption">Манга 6, 20р</div>
+									</div>
+									<div class="item__back">
+										<div class="about">
+											Нажмите, чтобы узнать подробнее
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="catalog__page-counter">
+							<div class="page-counter__bullet active"><div>1</div></div>
+							<div class="page-counter__bullet"><div>2</div></div>
+							<div class="page-counter__bullet"><div>3</div></div>
+							<div class="page-counter__bullet"><div>4</div></div>
+						</div>
+					</div>
+				</div>
+				
+				<footer class="footer">
+					<div class="footer__container">
+						<div class="container__info">
+							<div class="info__header">
+								<span>Информация</span>
+								<span class="info__header__arrow"></span>
+							</div>
+							<ul class="info__list">
+								<li><a href="#">О нас</a></li>
+								<li><a href="#">Свяжитесь с нами</a></li>
+								<li><a href="#">FAQ</a></li>
+							</ul>
+						</div>
+						<div class="container__newsletter">
+							<h3 class="newsletter__header">Рассылка</h3>
+								<form action="#" method="get">
+									<div class="form-wrapper">
+										<input type="email" name="email" class="newsletter__input" placeholder="Введите ваш e-mail...">
+										<button class="newsletter__submit">Подписаться</button>
+									</div>
+								</form>
+						</div>
+						<div class="container__social-media">
+							<div class="social-media__header">Мы в социальных сетях</div>
+							<ul class="social-media__list">
+								<li><a href="https://vk.com/kkklowwn" target="_blank"><img src="/img/vk-icon.png" class="social-media__list__image"></a></li>
+								<li><a href="https://t.me/obso1etee" target="_blank"><img src="/img/telegram-icon.png" width="36px" height="36px" class="social-media__list__image"></a></li>
+								<li><a href="https://www.instagram.com/obso1etee/" target="_black"><img src="/img/instagram-icon.png" width="36px" height="36px" class="social-media__list__image"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<ul class="bottom-links">
+							<li><a href="#">©obsoletee, 2023</a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+			<script src="/js/isMobile.js"></script>
+			<script src="/js/header.js"></script>
+			<script src="/js/footer.js"></script>
+			<script src="/js/catalogEvents.js"></script>
+		</body>
+</html>
