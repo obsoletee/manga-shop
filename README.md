@@ -1,1 +1,1 @@
-# Vercel: https://vercel.com/mewos-projects/manga-shop
+# Vercel: https://manga-shop-iota.vercel.app/
